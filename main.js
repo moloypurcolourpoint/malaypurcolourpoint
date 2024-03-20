@@ -1,6 +1,6 @@
 var data = []
 $(document).ready(function() {
-    loadData("Arambagh English UR.json")
+    loadData("https://moloypurcolourpoint.pythonanywhere.com/json%20data/Arambagh English UR.json")
 })
 
 function loadData(dataName) {
@@ -201,25 +201,25 @@ $("#group_type").change(function() {
     var mDataName = $("#group_type").val()
     switch (mDataName) {
         case '1':
-            loadData("Arambagh English UR.json");
+            loadData("https://moloypurcolourpoint.pythonanywhere.com/json%20data/Arambagh English UR.json");
             break;
         case '2':
-            loadData("Arambagh Bengali UR.json");
+            loadData("https://moloypurcolourpoint.pythonanywhere.com/json%20data/Arambagh Bengali UR.json");
             break;
         case '3':
-            loadData("Keshabpur English UR.json");
+            loadData("https://moloypurcolourpoint.pythonanywhere.com/json%20data/Keshabpur English UR.json");
             break;
         case '4':
-            loadData("Keshabpur Education UR.json");
+            loadData("https://moloypurcolourpoint.pythonanywhere.com/json%20data/Keshabpur Education UR.json");
             break;
         case '5':
-            loadData("English Gotan Honours.json")
+            loadData("https://moloypurcolourpoint.pythonanywhere.com/json%20data/English Gotan Honours.json")
             break;
         case '6':
-            loadData("Kalipur English UR.json");
+            loadData("https://moloypurcolourpoint.pythonanywhere.com/json%20data/Kalipur English UR.json");
             break;
         case '7':
-            loadData("Tarakeswar English UR.json");
+            loadData("https://moloypurcolourpoint.pythonanywhere.com/json%20data/Tarakeswar English UR.json");
             break;
         default:
             // code
